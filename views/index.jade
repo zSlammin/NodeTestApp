@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= "Database"
+  table
+    thead
+      tr: th First Name
+        th Last Name
+    tbody
+      each row, i in rows
+        tr
+          td
+            p= row.FirstName
+          td
+            p= row.LastName
