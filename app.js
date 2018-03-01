@@ -17,7 +17,6 @@ var Connection = require('tedious').Connection;
 var Request = require('tedious').Request;
 
 
-
 var config =
 	{
 		userName: 'zsalmon',
